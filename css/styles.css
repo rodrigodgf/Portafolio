@@ -1,0 +1,22 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    background: linear-gradient(90deg, rgba(238,221,153,1) 0%, rgba(238,194,144,1) 35%, rgba(238,221,153,1) 100%);
+    
+}
+
+
+a{
+   text-decoration: none;
+   color: black;
+}
+
+main{
+    font-family: 'Raleway', sans-serif;
+}
+
+hr{
+    color: black;
+    border: solid;
+    opacity: 0.3;
+}
+

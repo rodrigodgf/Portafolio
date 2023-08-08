@@ -1,0 +1,16 @@
+.menu__footer{
+    width: 30%;
+    
+}
+
+
+.lista__footer{
+    list-style: none;
+    line-height: 2em;
+}
+
+
+.lista__footer .titulo{
+    font-size: 20px;
+    font-weight: bolder;
+}

@@ -1,0 +1,48 @@
+.tecnologia{
+    display: flex;
+    margin: 5rem;
+}
+
+
+ .color{
+    background: linear-gradient(90deg, rgba(238,221,153,1) 10%, rgba(187,187,136,1) 46%, rgba(238,221,153,1) 93%);
+
+
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+}
+
+.img__tech{
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.tech__descripcion{
+    margin-left: 5rem;
+    line-height: 2.5rem;
+
+}
+
+
+@media (max-width: 768px){
+    .tecnologia{
+        flex-direction: column;
+        justify-content: center;
+        margin: 5%;
+    }
+    .tech__descripcion{
+        margin-left: 0;
+    }
+    .img__tech{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+}
+
+
+
+
+

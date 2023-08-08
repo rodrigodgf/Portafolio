@@ -1,0 +1,10 @@
+PALETA DE COLORES
+https://paletadecolores.com.mx/paleta/bbbb88/ccc68d/eedd99/eec290/eeaa88/
+
+FUENTES
+
+- font-family: 'Raleway', sans-serif;
+- font-family: 'Barlow', sans-serif;
+
+
+

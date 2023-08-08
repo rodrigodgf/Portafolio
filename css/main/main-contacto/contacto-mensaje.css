@@ -1,0 +1,123 @@
+.redes__contacto{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+}
+
+
+.img__contacto{
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+}
+
+
+.contacto__descripcion{
+    text-align: center;
+}
+ 
+ 
+ .mail{
+    width: 200px;
+    height: 200px;
+    color: rgb(240, 236, 0);
+    
+    
+}
+
+
+
+
+/*form*/
+html{
+    scroll-behavior: smooth;
+}
+
+.formulario{
+    
+    text-align: center;
+}
+
+
+.lista__form{
+   
+    margin-left: 25%;
+    margin-right: 25%;
+    list-style: none;
+    text-align:center;
+    padding: 0 0 0 0;
+
+}
+
+
+.form__titulo{
+    padding-bottom: 5rem;
+}
+
+
+.lista__item--form{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    text-align: center;
+}
+
+.item__nombre{
+    padding-bottom: 1rem;
+}
+
+
+.item__input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+
+
+    outline: 0;
+    padding-top: .5rem;
+    padding-bottom: .1rem;
+}
+
+.item__input:focus{
+    background-color: #ccc68d;
+    border-radius: 5px;
+    opacity: .5;
+}
+
+
+
+.textareaa{
+    border: solid;
+    background: #eedd99;
+    outline: 0;
+    opacity: 0.4;
+}
+
+
+.textareaa:focus{
+    background-color: #ccc68d;
+    border-radius: 5px;
+    opacity: .5;
+}
+
+
+button{
+    padding: .5rem;
+    border-radius: 5px;
+    border-width: 0.06rem;
+    margin-bottom: 6rem;
+    background-color: #eeaa88;
+    opacity: 0.8;
+}
+
+
+@media (max-width: 768px){
+    .lista__form{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+

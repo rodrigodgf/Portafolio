@@ -1,0 +1,39 @@
+.menu__proyectos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.proyecto__item{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+.img__proyecto{
+    width: 500px;
+    height: 300px;
+    border-radius: 9px;
+    box-shadow: 3px 3px 20px rgba(238, 170, 136, 0.6) ;
+    
+
+    
+}
+
+
+@media (max-width:768px){
+    .proyecto__item{
+        width: 80%;
+        margin: auto;
+    }
+    .img__proyecto{
+        width: 80vi;
+        height: 250px;
+        margin: auto;
+
+    }
+}
+

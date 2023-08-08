@@ -1,0 +1,30 @@
+.container__foto{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.img__foto{
+    width: 300px;
+    height: 370px;
+    object-fit:cover;
+    
+  
+  
+  box-shadow: 10px 10px rgba(238, 170, 136, 0.6);
+}
+
+
+@media (max-width: 768px){
+  .img__foto{
+    border-radius: 50%;
+    width: 80vi ;
+    height: auto;
+
+    
+  }
+}
+
+
+
+
+

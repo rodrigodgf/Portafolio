@@ -1,0 +1,76 @@
+.persona{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+    margin-left:20% ;
+    margin-right: 20%;
+    
+}
+
+
+
+
+.nombre__texto{
+    font-size: 70px;
+    
+}
+
+
+.nombre__texto {
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    border-right: 0.15em solid #000000;
+    animation: typing 2s steps(38) .1s 1 normal both, blink 1s steps(1) infinite;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+.flecha{
+  
+  text-align: center;
+}
+.img__flecha{
+ 
+  width: 100px;
+  height: 80px;
+  margin-bottom: 10rem;
+  opacity: 0.5;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+
+@media (max-width:768px){
+  .persona{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .nombre__texto{
+    font-size: 30px;
+  }
+  .persona__titulo{
+    margin-top: 4rem;
+  }
+}
+
+

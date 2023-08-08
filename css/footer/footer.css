@@ -1,0 +1,38 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    
+}
+
+
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu__footer {
+        display: none; 
+    }
+    .persona__footer,
+    .redes__footer {
+        text-align: center; 
+    }
+    .redes__footer {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+    
+    .redes__footer img {
+        width: 50px; 
+        height: auto;  
+        margin: 5px;
+        
+    }
+
+
+    
+}
+

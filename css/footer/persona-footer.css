@@ -1,0 +1,56 @@
+.persona__footer{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.titulo__footer{
+    padding-top: 1rem;
+}
+
+
+@media screen and (max-width:768px) {
+    .persona__footer{
+        display: flex;
+        flex-direction: column;
+        position:relative;
+    }
+   
+}
+/*
+
+@media screen and (max-width:0) {
+    .persona__footer{
+        width: 70%;
+        margin-top: 0.3rem;
+        margin-bottom: 2rem;
+
+    }
+    .nombre__footer{
+        font-size: 20px;
+        padding: 0rem;
+    }
+
+    .titulo__footer{
+        padding: 0px;
+    }
+}
+
+
+@media screen and (min-width:769px) {
+    .persona__footer{
+        width: 30%;
+        align-items: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .titulo__footer{
+        padding-top: 1rem;
+    }
+
+}
+
+
+*/

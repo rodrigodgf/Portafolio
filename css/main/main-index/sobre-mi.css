@@ -1,0 +1,27 @@
+.sobre__mi{
+    display: flex;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.container__sobreMi{
+    display: flex;
+    width: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+
+.sobreMi__texto{
+    display: flex;
+    line-height: 2.5em;
+}
+
+@media (max-width:768px) {
+    .container__sobreMi{
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: justify;
+    }
+}
